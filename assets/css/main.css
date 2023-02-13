@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--layout-bg);
+  color: var(--text-primary);
+  font: 14px/1.5 "Inter", sans-serif;
+  user-select: none;
+  /* overflow: hidden overlay; */
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+  color: inherit;
+  font: inherit;
+  background-color: transparent;
+}
+
+button {
+  cursor: pointer;
+  font-weight: 400;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.active, a:hover {
+  color: var(--link-text-hover);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+figure {
+  overflow: hidden;
+}
+
+.material-symbols-rounded {
+  font-size: 2rem;
+  user-select: none;
+  background: var(--player-text);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+/* Layout */
+.layout {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--layout-bg);
+  background-size: 1920px auto;
+  background-repeat: no-repeat;
+  overflow: hidden overlay;
+}
+
+
+
+
+/* Scrool */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: var(--scroll-thumb-bg);
+  -webkit-box-shadow: var(--scrool-box-shadow);
+}
