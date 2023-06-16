@@ -1,8 +1,8 @@
 var config = {
-    apiKey: 'AIzaSyDU5MIE4-FCKOiQpftQmL7fEhyBx3lPoxE',
-    messagingSenderId: '121599275924',
-    appId: '1:121599275924:web:576b53586ed753f746d581',
-    projectId: 'aka-website-1f766',
+    apiKey: 'AIzaSyCnexdpR3gRH8y6Yiav_mMWVBbI1KYzX3A',
+    messagingSenderId: '348718367590',
+    appId: '1:348718367590:web:1c286675a9b06439d73ea7',
+    projectId: 'optical-carrier-307103',
     user_key: 'ADGMOT35CHFLVDHBJNIG50K96BSUH1PDDQFBSPLEV97HGG26AH0G',
     siteid: '83d11265053e69f9f253c4db87610842'
 };
